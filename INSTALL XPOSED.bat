@@ -1,0 +1,1 @@
+nox_adb shell "cd /sdcard/Download/xposed/xposed && su -c 'sh flash-script.sh'"
