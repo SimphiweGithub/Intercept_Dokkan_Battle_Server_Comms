@@ -143,6 +143,6 @@ nox_adb shell am broadcast -a android.intent.action.PROXY_CHANGE
 ```
 ### Credits & Licenses
 
-SSL Bypass: JustTrustMe by Fuzion24 (Apache 2.0).
-Xposed Script: Modified from Install-Xposed-on-Memu by SoheilShakib.
-Framework: Xposed by rovo89.
+SSL Bypass: JustTrustMe by Fuzion24 (Apache 2.0).<br/>
+Xposed Script: Modified from Install-Xposed-on-Memu by SoheilShakib.<br/>
+Framework: Xposed by rovo89.<br/>
