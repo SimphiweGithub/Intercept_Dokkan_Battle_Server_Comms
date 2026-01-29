@@ -30,7 +30,7 @@ To establish a stable Man-in-the-Middle (MitM) environment using **Fiddler Class
 
 ## Step 2: Certificate Hashing
 **Goal:** Convert Fiddler's SSL certificate into the specific hash format required by the Android System.
-![Open ssl termainal](openssl.png)
+![Open ssl termainal](images/openssl.png)
 1.  Open the Win64 OpenSSL Command Prompt.
 2.  Navigate to the directory containing your exported `FiddlerRoot.cer`.
 3.  Run the following command to convert the certificate to PEM format:
@@ -92,7 +92,7 @@ reboot
         ```
     * Run the installation scrip(THATS IN THIS REPO) on your PC:
 
- ![RAW Format](working_xposed_status.png)
+ ![RAW Format](images/working_xposed_status.png)
 
 ## Step 6: Security Bypass
 **Goal:** Disable SSL Pinning for the target application.
@@ -102,12 +102,12 @@ reboot
 2.  **Enable Module:** Open the **Xposed Installer** app and navigate to **Modules**.
 3.  **Activate:** Check the box next to **JustTrustMe**.
 4.  **Reboot:** Restart the instance to activate the module.
- ![RAW Format](just_trust_me_module.png)
+ ![RAW Format](images/just_trust_me_module.png)
 ---
 ## Final results
-![RAW Format](final_results.png)
+![RAW Format](images/final_results.png)
 
-![JSON format](final_results_2.png)
+![JSON format](images/final_results_2.png)
 
 ## Operational Strategy
 **Challenge:** You cannot leave the proxy and bypass active continuously, as it will break standard browser functionality and Google Play services. You must switch between two modes.
