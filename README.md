@@ -2,8 +2,6 @@
 
 The following is for educational purposes.
 
-# What this is?
-Its a  "Master Log" documenting the procedure to bypass SSL Pinning and inspect HTTPS traffic in **Dragon Ball Z: Dokkan Battle (Global)**.
 
 # Objective
 To establish a stable Man-in-the-Middle (MitM) environment using **Fiddler Classic** and **Nox Emulator** that allows for the decryption and analysis of game API traffic .
@@ -53,6 +51,7 @@ Goal: Convert Fiddler’s SSL certificate into a hash format Android System acce
 
 
 ### Phase 3: System Certificate Injection
+cd to your nox bin directory the nox_adb will be there
 *Goal: Force Android to trust Fiddler as a "System" CA, bypassing user-cert restrictions.*
 
 Run the following commands in your ADB terminal (Example Port: `62026`):
@@ -79,4 +78,17 @@ chmod 644 /system/etc/security/cacerts/269953fb.0
 # 7. Reboot to apply
 reboot
 ```
+
+Phase 4: Xposed Framework Installation
+Goal: Install the hooking framework required to run the bypass module.
+
+Download the xposed apk that is on this github [Download the latest APK here](https://github.com/SimphiweGithub/Intercept_Dokkan_Battle_Server_Comms/blob/main/JustTrustMe.apk)
+
+Push the files to /sdcard/Download/xposed.
+
+Run the flash script via ADB:
+
+Bash
+nox_adb shell "cd /sdcard/Download/xposed/xposed/xposed && su -c 'sh flash-script.sh'"
+Verification: Reboot. Open the "Xposed Installer" app. The status bar should be Green (Active).
 
