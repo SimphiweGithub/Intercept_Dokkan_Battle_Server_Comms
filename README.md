@@ -17,5 +17,8 @@ To establish a stable Man-in-the-Middle (MitM) environment using **Fiddler Class
 
 
 # Step 1
--Install Fiddler Classic
--Then go to tools then Connections 
+-Install Fiddler Classic<br/>
+
+
+-Then go to tools then Connections and make sure your screen looks like this 
+![Alt text for the image](images/your_image_name.png)
