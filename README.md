@@ -21,4 +21,4 @@ To establish a stable Man-in-the-Middle (MitM) environment using **Fiddler Class
 
 
 -Then go to tools then Connections and make sure your screen looks like this 
-![Alt text for the image](images/your_image_name.png)
+![Alt text for the image](images/required_connections_settings.png)
