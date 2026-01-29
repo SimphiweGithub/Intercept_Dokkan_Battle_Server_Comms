@@ -23,6 +23,7 @@ Goal: Convert Fiddler’s SSL certificate into a hash format Android System acce
 -Then go to tools then Connections and make sure you select the same options I have.
 ![Alt text for the image](images/required_connections_settings.png)
 
-<br/>-Then go to the HTTPS tab and make sure it looks like the following screenshot <br/>
+<br/>-Then go to the HTTPS tab and make sure it looks like the following screenshot and then go to Actions in the top right of this tab and click the export root certificater button <br/>
+![Alt text for the image](images/https_tab_settings.png)
 
--Then go to Actions in the top right of this tab and click the export root certificater button
+
