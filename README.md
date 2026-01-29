@@ -6,7 +6,7 @@ The following is for educational purposes.
 Its a  "Master Log" documenting the procedure to bypass SSL Pinning and inspect HTTPS traffic in **Dragon Ball Z: Dokkan Battle (Global)**.
 
 # Objective
-To establish a stable Man-in-the-Middle (MitM) environment using **Fiddler Classic** and **Nox Emulator** that allows for the decryption and analysis of game API traffic (JSON).
+To establish a stable Man-in-the-Middle (MitM) environment using **Fiddler Classic** and **Nox Emulator** that allows for the decryption and analysis of game API traffic .
 
 # Tech Stack
 * **Emulator:** Nox (Android 7 | 32-bit)
