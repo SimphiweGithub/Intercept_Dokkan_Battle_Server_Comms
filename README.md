@@ -18,7 +18,7 @@ To establish a stable Man-in-the-Middle (MitM) environment using **Fiddler Class
 
 
 # Step 1
-Goal: Convert Fiddler’s SSL certificate into a hash format Android System accepts.
+Goal: Convert Fiddler’s SSL certificate into a hash format Android System accepts.<br/>
 -Install Fiddler Classic<br/>
 -Then go to tools then Connections and make sure you select the same options I have.
 ![Alt text for the image](images/required_connections_settings.png)
