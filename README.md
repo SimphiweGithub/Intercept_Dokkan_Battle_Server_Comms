@@ -103,6 +103,8 @@ reboot
 4.  **Reboot:** Restart the instance to activate the module.
 
 ---
+## Final results
+
 
 ## Operational Strategy
 **Challenge:** You cannot leave the proxy and bypass active continuously, as it will break standard browser functionality and Google Play services. You must switch between two modes.
