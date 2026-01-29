@@ -104,7 +104,7 @@ reboot
 4.  **Reboot:** Restart the instance to activate the module.
  ![RAW Format](images/just_trust_me_module.png)
 ---
-## Final results
+## Final results (this is me on the home page on the emulator)
 ![RAW Format](images/final_results.png)
 
 ![JSON format](images/final_results_2.png)
