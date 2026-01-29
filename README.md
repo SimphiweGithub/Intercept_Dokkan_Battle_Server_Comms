@@ -82,9 +82,23 @@ reboot
 Phase 4: Xposed Framework Installation
 Goal: Install the hooking framework required to run the bypass module.
 
-Download the xposed apk that is on this github [Download the latest APK here](https://github.com/SimphiweGithub/Intercept_Dokkan_Battle_Server_Comms/blob/main/JustTrustMe.apk)
+Install both SuperSU and Xposed - just drag & drop apks to the Memu window.
 
-Push the files to /sdcard/Download/xposed.
+Install SU Binaries (click «Normal» button) and reboot in order for the Xposed installer to work.
+
+Allow superuser permission when asked
+
+Unzip already patched xposed zip
+
+Push the "Unzipped" folder to Nox
+
+Now we put the open folder into the emulator. (Replace C:\Path\To\ with the actual location of your new "xposed" folder).
+
+```bash
+nox_adb push "C:\Path\To\xposed" /sdcard/Download/
+```
+
+
 
 Run the flash script via ADB:
 
