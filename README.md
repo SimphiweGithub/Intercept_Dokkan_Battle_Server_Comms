@@ -1,2 +1,21 @@
-# Intercept_Dokkan_Battle_Server_Comms
-Bypassing SSL Pinning on Dokkan Battle (Global) to analyze JSON payloads. Implements Fiddler Classic, System Certificate injection, and JustTrustMe on Android 7.
+# Dokkan Battle API Inspector: Fiddler + Nox (Android 7) + Custom Exposed .apk + SuperSu Setup
+
+The following is for educational purposes.
+
+#What this is?
+A complete "Master Log" documenting the procedure to bypass SSL Pinning and inspect HTTPS traffic in **Dragon Ball Z: Dokkan Battle (Global)**.
+
+# Objective
+To establish a stable Man-in-the-Middle (MitM) environment using **Fiddler Classic** and **Nox Emulator** that allows for the decryption and analysis of game API traffic (JSON).
+
+# Tech Stack
+* **Emulator:** Nox (Android 7 | 32-bit)
+* **Proxy/Inspection:** Fiddler Classic
+* **Root Framework:** Xposed (SDK 24)
+* **SSL Bypass:** JustTrustMe module
+* **SuperSU:** Help root management framework
+
+
+#Step 1
+-Install Fiddler Classic
+-Then go to tools then Connections 
