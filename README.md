@@ -2,7 +2,7 @@
 
 The following is for educational purposes.
 
-#What this is?
+#W hat this is?
 A complete "Master Log" documenting the procedure to bypass SSL Pinning and inspect HTTPS traffic in **Dragon Ball Z: Dokkan Battle (Global)**.
 
 # Objective
@@ -16,6 +16,6 @@ To establish a stable Man-in-the-Middle (MitM) environment using **Fiddler Class
 * **SuperSU:** Help root management framework
 
 
-#Step 1
+# Step 1
 -Install Fiddler Classic
 -Then go to tools then Connections 
