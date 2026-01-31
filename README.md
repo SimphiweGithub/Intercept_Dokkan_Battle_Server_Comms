@@ -1,6 +1,6 @@
 # Dokkan Battle API Inspector: Fiddler + Nox (Android 7) + Custom Xposed + SuperSU
 
-**Disclaimer:** The following documentation is for educational purposes only. Your firewall might need to be turned off and disable all vpns.
+**Disclaimer:** The following documentation is for educational purposes only. You must disable all vpns.
 
 ## Objective
 To establish a stable Man-in-the-Middle (MitM) environment using **Fiddler Classic** and **Nox Emulator** that allows for the decryption and analysis of game API traffic.
